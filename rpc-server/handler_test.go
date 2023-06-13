@@ -17,7 +17,7 @@ func TestIMServiceImpl_Send(t *testing.T) {
 	tests := []struct {
 		name    string
 		args    args
-		wantErr error
+		errorThrown error
 	}{
 		{
 			name: "success",
@@ -32,7 +32,7 @@ func TestIMServiceImpl_Send(t *testing.T) {
 					},
 				},
 			},
-			wantErr: nil,
+			errorThrown: nil,
 		},
 	}
 	for _, tt := range tests {
