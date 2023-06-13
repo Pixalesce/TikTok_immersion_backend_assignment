@@ -17,6 +17,9 @@ To tackle the storage of data, the Redis database was chosen due to the nature o
 ### Message Delivery 
 Functions supporting send requests and pull requests were defined, supporting functionality to write and read messages from the Redis server respectively.
 
+### Testing
+API Testing was done via Postman, while load the load test was done using jMeter.
+
 ## Challenges
 The greatest challenge I faced over the course of this projcet is definitely the large number of systems that have to be put in place for it to work, from the Docker images and containers to the RPC and Redis servers. Especially since this is my first contact with most of these services, the learning curve was particularly steep. However, it was indeed a great chance for me to grow and develop my skills.
 
